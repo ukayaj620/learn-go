@@ -45,6 +45,9 @@ func ChallengeFour() {
 	fmt.Print("Tinggi segitiga: ")
 	fmt.Scan(&height)
 	triangle.LowerRight(height)
+	triangle.UpperRight(height)
+	triangle.LowerLeft(height)
+	triangle.UpperLeft(height)
 	fmt.Println()
 }
 
